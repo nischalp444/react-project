@@ -1,6 +1,5 @@
 import './App.css';
 import FridgeContainer from './components/FridgeContainer';
-import ProductsContainer from './components/ProductsContainer';
 import RecipiesContainer from './components/RecipiesContainer';
 import {
   BrowserRouter as Router,
@@ -16,12 +15,8 @@ function App() {
       <h1> Start of my final react project</h1>
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/fridge">
             <FridgeContainer/>
-          </Route>
-
-          <Route path="/products">
-            <ProductsContainer/>
           </Route>
 
           <Route path ="/recipies">
@@ -29,8 +24,7 @@ function App() {
           </Route>
         </Switch>
         <div>
-          <Link to="/"> Fridge </Link>
-          <Link to="/products"> Products</Link>
+          <Link to="/fridge"> Fridge </Link>
           <Link to= "/recipies">Recipies</Link>
         </div>
       </Router>
