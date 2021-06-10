@@ -1,4 +1,5 @@
-const miscAPI = [
+const miscList = 
+[
     {product: "Cheese"},
     {product: "Milk"},
     {product: "Almonds"},
@@ -13,4 +14,4 @@ const miscAPI = [
     {product: "Vegetable Oil"},
 ]
 
-export default miscAPI
+export default miscList

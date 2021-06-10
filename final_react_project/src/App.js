@@ -8,11 +8,12 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
+import {Typography, } from "@material-ui/core"
+
 
 function App() {
   return (
     <div className="App">
-      <h1> Start of my final react project</h1>
       <Router>
         <Switch>
           <Route exact path="/fridge">

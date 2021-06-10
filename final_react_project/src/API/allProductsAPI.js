@@ -1,4 +1,4 @@
-const  topIngridients= 
+const  topIngredients= 
 [
 {product: "5 spice powder"},
 {product: "acorn squash"},
@@ -1002,4 +1002,4 @@ const  topIngridients=
 {product: "yukon gold potato"}
 ]
 
-export default topIngridients
+export default topIngredients

@@ -1,6 +1,6 @@
 const seasoningList = 
 [
-    {product: "Salt "},
+    {product: "Kosher Salt "},
     {product: "Pepper"},
     {product: "Sugar"},
     {product: "Basil"},
